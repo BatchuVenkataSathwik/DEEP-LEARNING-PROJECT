@@ -12,6 +12,8 @@ DURATION:4 WEEKS
 
 MENTOR:NEELA SANTOSH
 
+#DESCRIPTION:-
+
 📌 Project Overview:
 The goal of this deep learning internship task is to implement a fully functional deep learning model for either image classification or natural language processing (NLP) using TensorFlow or PyTorch. The project must be developed in Visual Studio Code (VS Code) and should include visualizations of results to showcase model performance. This task not only develops your practical skills in AI/ML but also enhances your ability to work with frameworks and tools commonly used in real-world industry scenarios.
 
