@@ -87,3 +87,9 @@ Prefer using GPU (Google Colab or install CUDA locally if needed).
 Comment your code clearly.
 
 Use model.save() or torch.save() to save your model.
+
+
+
+OUTPUT :-
+
+![Image](https://github.com/user-attachments/assets/449797ee-e151-4133-9743-7ae44f5dfaee)
