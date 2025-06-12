@@ -12,7 +12,6 @@ DURATION:4 WEEKS
 
 MENTOR:NEELA SANTOSH
 
-#DESCRIPTION
 📌 Project Overview:
 The goal of this deep learning internship task is to implement a fully functional deep learning model for either image classification or natural language processing (NLP) using TensorFlow or PyTorch. The project must be developed in Visual Studio Code (VS Code) and should include visualizations of results to showcase model performance. This task not only develops your practical skills in AI/ML but also enhances your ability to work with frameworks and tools commonly used in real-world industry scenarios.
 
@@ -34,6 +33,74 @@ These are the two most widely-used deep learning frameworks.
 
 TensorFlow (by Google) or PyTorch (by Facebook) can be used depending on familiarity.
 
+✅ 4. Jupyter Notebook (Optional)
+Useful for testing model snippets, visualizations, and experimenting interactively within VS Code.
+
+✅ 5. Libraries Required:
+You can install them using pip:
+
+bash
+Copy
+Edit
+pip install numpy pandas matplotlib seaborn scikit-learn tensorflow keras torch torchvision
+NumPy/Pandas – Data handling
+
+Matplotlib/Seaborn – Visualizations
+
+scikit-learn – Metrics & preprocessing
+
+TensorFlow / PyTorch – Model building
+
+🖥️ Environment Setup:
+Step 1: Install VS Code
+Download and install from https://code.visualstudio.com
+
+Step 2: Install Python
+Download from https://python.org
+
+During installation, check "Add Python to PATH".
+
+Step 3: Set Up Virtual Environment (Recommended)
+bash
+Copy
+Edit
+python -m venv dl_env
+.\dl_env\Scripts\activate   # Windows
+Step 4: Install Required Packages
+bash
+Copy
+Edit
+pip install numpy pandas matplotlib seaborn scikit-learn tensorflow
+or for PyTorch:
+
+bash
+Copy
+Edit
+pip install torch torchvision torchaudio
+Step 5: Add Extensions in VS Code
+Python
+
+Jupyter
+
+Pylance
+
+IntelliCode
+
+📂 Project Structure (Suggested)
+arduino
+Copy
+Edit
+DeepLearning-Task/
+│
+├── dataset/
+│   └── (images or text files)
+├── models/
+│   └── model.py
+├── utils/
+│   └── helper.py
+├── main.py
+├── requirements.txt
+└── README.md
 📊 Model Options:
 You can choose either:
 
@@ -66,6 +133,14 @@ Sample predictions with actual vs predicted labels
 
 Confusion matrix
 
+python
+Copy
+Edit
+import matplotlib.pyplot as plt
+plt.plot(history.history['accuracy'], label='accuracy')
+plt.plot(history.history['val_accuracy'], label = 'val_accuracy')
+plt.legend()
+plt.show()
 ✅ Deliverables:
 A functional .py or .ipynb file with your model code.
 
@@ -87,7 +162,6 @@ Prefer using GPU (Google Colab or install CUDA locally if needed).
 Comment your code clearly.
 
 Use model.save() or torch.save() to save your model.
-
 
 
 OUTPUT :-
